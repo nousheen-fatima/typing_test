@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Typing Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hide loader" id="spinner"></div>
+      <p id="timer"></p>
+      <p id="random_word">Random word ...</p>
+      <input type="text" id="typed_word" />
+      <p id="time_taken"></p>
+    </div>
+    <div>
+      <p id="definition"></p>
+      <p id="pronunciation"></p>
+      <p id="accuracy_score"></p>
+      <p id="time_score"></p>
+      <p id="score"></p>
+      <button id="reset" onclick="regenerateWord()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
